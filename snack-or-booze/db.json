@@ -27,6 +27,27 @@
       "description": "Crisp!",
       "recipe": "Open can.",
       "serve": "Immediately."
+    },
+    {
+      "id": "liit",
+      "name": "Long Island Iced Tea",
+      "description": "Refreasing",
+      "recipe": "Make.",
+      "serve": "Immediately."
+    },
+    {
+      "id": "long-island",
+      "name": "long island",
+      "description": "refreasing",
+      "recipe": "juice and vodka",
+      "serve": "serve right away"
+    },
+    {
+      "id": "green-goul",
+      "name": "green goul",
+      "description": "green drink",
+      "recipe": "green juice",
+      "serve": "yucky"
     }
   ],
   "snacks": [
@@ -50,6 +71,13 @@
       "description": "Tart and delicious.",
       "recipe": "Mix arugula, toasted walnuts, and thinly-sliced Parmesan cheese. Dress with lemon and olive oil.",
       "serve": "Place on tiny, precious little plates."
+    },
+    {
+      "id": "cheeze-it",
+      "name": "cheeze-it",
+      "description": "yummy cheese",
+      "recipe": "falvorful",
+      "serve": "in a bowl"
     }
   ]
 }

@@ -15,6 +15,34 @@ class SnackOrBoozeApi {
     const result = await axios.get(`${BASE_API_URL}/snacks`);
     return result.data;
   }
+  static async getDrinks() {
+    const result = await axios.get(`${BASE_API_URL}/drinks`);
+    return result.data;
+  }
+
+
+  //Takes Drink object and adds it to dataBase, Else throws error
+  static async createDrink(drink){
+    try{
+    const results = await axios.post(`${BASE_API_URL}/drinks`, drink)
+    console.log(results.data)
+    }
+    catch(err){
+      console.log(err)
+    }
+  }
+
+  //Takes snack object and adds it to dataBase, Else throws error
+  static async createSnack(snack){
+    try{
+    const results = await axios.post(`${BASE_API_URL}/snacks`, snack)
+    console.log(results.data)
+    }
+    catch(err){
+      console.log(err)
+    }
+  }
+
 
 }
 

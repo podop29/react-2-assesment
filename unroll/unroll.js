@@ -9,7 +9,7 @@ function unroll(squareArray) {
     return arr
 }
 
-function unroll2(squareArray,i, j, arr){
+function unroll2(squareArray,i = 0, j = 0, arr){
     if(j === squareArray[i].length){
         i++
         j=0
